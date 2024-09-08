@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Astral Havoc"
+config/name_localized={
+"en": "Astral Havoc",
+"ru": "Астральный хаос"
+}
+config/description="PVP Shooter like Rounds, Stick Fight etc."
+config/version="0.0.0"
+run/print_header=false
+config/custom_user_dir_name="%APPDATA%\\[project_name]"
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://icon.svg"
+
+[debug]
+
+file_logging/enable_file_logging=true
+file_logging/log_path="%APPDATA%/[project_name]/logs/godot.log"
+gdscript/warnings/untyped_declaration=1
+gdscript/warnings/inferred_declaration=1
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[editor]
+
+naming/script_name_casing=2
