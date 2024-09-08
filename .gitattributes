@@ -1,2 +1,58 @@
-# Auto detect text files and perform LF normalization
+# Set the default behavior
 * text=auto
+
+# Godot-specific text files
+*.gd text
+*.tscn text
+*.tres text
+*.cfg text
+*.import text
+
+# Common text files
+*.md text
+*.txt text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+*.ini text
+*.csv text
+
+# Image files (binary)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tga binary
+*.psd binary
+
+# Audio files (binary)
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.flac binary
+
+# Video files (binary)
+*.mp4 binary
+*.avi binary
+*.mov binary
+
+# Font files (binary)
+*.ttf binary
+*.otf binary
+
+# Godot binary files
+*.import binary
+*.stex binary
+*.res binary
+
+# Other binary files
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
